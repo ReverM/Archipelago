@@ -17,7 +17,7 @@ from Main import main as ERmain
 from Utils import __version__
 from WebHostLib import app
 from settings import ServerOptions, GeneratorOptions
-from worlds.alttp.EntranceRandomizer import parse_arguments
+from worlds.HelperFunctions import parse_arguments
 from .check import get_yaml_data, roll_options
 from .models import Generation, STATE_ERROR, STATE_QUEUED, Seed, UUID
 from .upload import upload_zip_to_db

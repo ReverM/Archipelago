@@ -10,7 +10,7 @@ from worlds import AutoWorld
 from worlds.AutoWorld import World, call_all
 
 from BaseClasses import Location, MultiWorld, CollectionState, ItemClassification, Item
-from worlds.alttp.Items import item_factory
+from worlds.HelperFunctions import item_factory
 
 
 class TestBase(unittest.TestCase):
